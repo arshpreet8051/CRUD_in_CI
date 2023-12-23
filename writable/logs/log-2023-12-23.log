@@ -1,0 +1,207 @@
+CRITICAL - 2023-12-23 03:50:01 --> Undefined variable $courses
+in APPPATH\Views\show_student.php on line 44.
+ 1 APPPATH\Views\show_student.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $courses', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\show_student.php', 44)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\show_student.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('show_student', [], true)
+ 5 APPPATH\Controllers\student_controller.php(92): view('show_student', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\student_controller->delete('13')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\student_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-23 04:08:28 --> syntax error, unexpected identifier "this"
+in APPPATH\Models\login_model.php on line 35.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ci4\\app\\Models\\login_model.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\login_model')
+ 3 APPPATH\Controllers\student_controller.php(41): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\login_model')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\student_controller->credentials()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\student_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-23 04:09:57 --> syntax error, unexpected variable "$this"
+in APPPATH\Models\login_model.php on line 35.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ci4\\app\\Models\\login_model.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\login_model')
+ 3 APPPATH\Controllers\student_controller.php(41): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\login_model')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\student_controller->credentials()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\student_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-23 04:13:00 --> syntax error, unexpected token "=", expecting "]"
+in APPPATH\Controllers\student_controller.php on line 59.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ci4\\app\\Controllers\\student_controller.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\student_controller')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\student_controller')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\student_controller', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-23 04:13:08 --> syntax error, unexpected token "=", expecting "]"
+in APPPATH\Controllers\student_controller.php on line 59.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ci4\\app\\Controllers\\student_controller.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\student_controller')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\student_controller')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\student_controller', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-23 04:13:45 --> syntax error, unexpected token ";", expecting "]"
+in APPPATH\Controllers\student_controller.php on line 59.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ci4\\app\\Controllers\\student_controller.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\student_controller')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\student_controller')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\student_controller', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-23 04:14:06 --> syntax error, unexpected token ";", expecting "]"
+in APPPATH\Controllers\student_controller.php on line 60.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ci4\\app\\Controllers\\student_controller.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\student_controller')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\student_controller')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\student_controller', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-23 05:45:45 --> Too few arguments to function App\Controllers\student_controller::addUser(), 0 passed in C:\xampp\htdocs\ci4\system\CodeIgniter.php on line 919 and exactly 2 expected
+in APPPATH\Controllers\student_controller.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\student_controller->addUser()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\student_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-23 07:35:00 --> Undefined property: App\Controllers\student_controller::$load
+in APPPATH\Controllers\student_controller.php on line 70.
+ 1 APPPATH\Controllers\student_controller.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\student_controller::$load', 'C:\\xampp\\htdocs\\ci4\\app\\Controllers\\student_controller.php', 70)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\student_controller->log_view()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\student_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-23 07:36:24 --> Class "App\Controllers\student_log_model" not found
+in APPPATH\Controllers\student_controller.php on line 71.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\student_controller->log_view()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\student_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-23 07:36:56 --> Cannot declare class App\Models\student_model, because the name is already in use
+in APPPATH\Models\student_log_model.php on line 7.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-23 07:37:01 --> Cannot declare class App\Models\student_model, because the name is already in use
+in APPPATH\Models\student_log_model.php on line 7.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-23 07:38:32 --> Undefined property: App\Controllers\student_controller::$student_model
+in APPPATH\Controllers\student_controller.php on line 75.
+ 1 APPPATH\Controllers\student_controller.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\student_controller::$student_model', 'C:\\xampp\\htdocs\\ci4\\app\\Controllers\\student_controller.php', 75)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\student_controller->log_view()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\student_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-23 07:39:05 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::get()
+in APPPATH\Models\student_model.php on line 21.
+ 1 APPPATH\Controllers\student_controller.php(75): App\Models\student_model->getStudents()
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\student_controller->log_view()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\student_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-23 07:39:11 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::get()
+in APPPATH\Models\student_model.php on line 21.
+ 1 APPPATH\Controllers\student_controller.php(75): App\Models\student_model->getStudents()
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\student_controller->log_view()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\student_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-23 07:40:04 --> Undefined property: App\Controllers\student_controller::$load
+in APPPATH\Controllers\student_controller.php on line 78.
+ 1 APPPATH\Controllers\student_controller.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\student_controller::$load', 'C:\\xampp\\htdocs\\ci4\\app\\Controllers\\student_controller.php', 78)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\student_controller->log_view()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\student_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-23 07:40:27 --> Attempt to read property "id" on array
+in APPPATH\Views\log_view.php on line 45.
+ 1 APPPATH\Views\log_view.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\log_view.php', 45)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\log_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('log_view', [], true)
+ 5 APPPATH\Controllers\student_controller.php(78): view('log_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\student_controller->log_view()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\student_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-23 07:41:28 --> Undefined property: CodeIgniter\View\View::$Student_log_model
+in APPPATH\Views\log_view.php on line 44.
+ 1 APPPATH\Views\log_view.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$Student_log_model', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\log_view.php', 44)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\log_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('log_view', [], true)
+ 5 APPPATH\Controllers\student_controller.php(78): view('log_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\student_controller->log_view()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\student_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-23 07:41:48 --> Undefined property: CodeIgniter\View\View::$student_log_model
+in APPPATH\Views\log_view.php on line 44.
+ 1 APPPATH\Views\log_view.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$student_log_model', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\log_view.php', 44)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\log_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('log_view', [], true)
+ 5 APPPATH\Controllers\student_controller.php(78): view('log_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\student_controller->log_view()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\student_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-23 07:45:17 --> Attempt to read property "allowedFields" on array
+in APPPATH\Views\log_view.php on line 44.
+ 1 APPPATH\Views\log_view.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "allowedFields" on array', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\log_view.php', 44)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\log_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('log_view', [], true)
+ 5 APPPATH\Controllers\student_controller.php(78): view('log_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\student_controller->log_view()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\student_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-23 07:46:14 --> Attempt to read property "allowedFields" on array
+in APPPATH\Views\log_view.php on line 44.
+ 1 APPPATH\Views\log_view.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "allowedFields" on array', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\log_view.php', 44)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\log_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('log_view', [], true)
+ 5 APPPATH\Controllers\student_controller.php(78): view('log_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\student_controller->log_view()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\student_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-23 07:47:29 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+in APPPATH\Models\student_log_model.php on line 26.
+ 1 APPPATH\Views\log_view.php(45): App\Models\student_log_model->isUpdatedField([...], 'course_code')
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\log_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('log_view', [], true)
+ 5 APPPATH\Controllers\student_controller.php(78): view('log_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\student_controller->log_view()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\student_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-23 07:48:51 --> Attempt to read property "id" on array
+in APPPATH\Models\student_log_model.php on line 26.
+ 1 APPPATH\Models\student_log_model.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\xampp\\htdocs\\ci4\\app\\Models\\student_log_model.php', 26)
+ 2 APPPATH\Views\log_view.php(45): App\Models\student_log_model->isUpdatedField([...], 'course_code')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\log_view.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('log_view', [], true)
+ 6 APPPATH\Controllers\student_controller.php(78): view('log_view', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\student_controller->log_view()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\student_controller))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-23 07:49:37 --> Attempt to read property "course_code" on array
+in APPPATH\Views\log_view.php on line 46.
+ 1 APPPATH\Views\log_view.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "course_code" on array', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\log_view.php', 46)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\log_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('log_view', [], true)
+ 5 APPPATH\Controllers\student_controller.php(78): view('log_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\student_controller->log_view()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\student_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
