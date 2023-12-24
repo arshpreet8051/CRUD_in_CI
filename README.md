@@ -66,6 +66,23 @@ Administrators have access to a specialized interface for managing and overseein
 
 This step showcases a log table, providing a detailed record of activities and changes within the system. The highlighted values are updated values.
 
+## The approach used is MVC
+
+### What is MVC?
+
+The Model-View-Controller (MVC) framework is an architectural/design pattern that separates an application into three main logical components Model, View, and Controller. Each architectural component is built to handle specific development aspects of an application. It isolates the business logic and presentation layer from each other. It was traditionally used for desktop graphical user interfaces (GUIs). Nowadays, MVC is one of the most frequently used industry-standard web development frameworks to create scalable and extensible projects. It is also used for designing mobile apps.
+
+MVC was created by Trygve Reenskaug. The main goal of this design pattern was to solve the problem of users controlling a large and complex data set by splitting a large application into specific sections that all have their own purpose.
+
+![image](https://github.com/arshpreet8051/CRUD_in_CI/assets/99662930/1496528b-5238-47e8-a8a5-1f40468227fe)
+
+### Features of MVC :
+
+It provides a clear separation of business logic, Ul logic, and input logic.
+It offers full control over your HTML and URLs which makes it easy to design web application architecture.
+It is a powerful URL-mapping component using which we can build applications that have comprehensible and searchable URLs.
+It supports Test Driven Development (TDD).
+
 # CodeIgniter 4 Framework
 
 ## What is CodeIgniter?
