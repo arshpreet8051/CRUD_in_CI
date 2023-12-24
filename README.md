@@ -79,8 +79,11 @@ MVC was created by Trygve Reenskaug. The main goal of this design pattern was to
 ### Features of MVC :
 
 It provides a clear separation of business logic, Ul logic, and input logic.
+
 It offers full control over your HTML and URLs which makes it easy to design web application architecture.
+
 It is a powerful URL-mapping component using which we can build applications that have comprehensible and searchable URLs.
+
 It supports Test Driven Development (TDD).
 
 # CodeIgniter 4 Framework
