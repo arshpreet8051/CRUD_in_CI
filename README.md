@@ -1,3 +1,71 @@
+# CRUD Operations in CodeIgniter
+
+<img src="https://github.com/arshpreet8051/CRUD_in_CI/assets/99662930/3e367e9a-e677-4dc3-9adf-f01dbba42d8c" alt="image" width="550"/>
+
+In the context of CodeIgniter, a PHP web application framework, CRUD operations are fundamental for database interactions.
+
+**Create**: Inserting a new user into the 'users' table.
+
+**Read**: Retrieving all products from the 'products' table.
+
+**Update**: Updating the status of an order in the 'orders' table.
+
+**Delete**: Deleting a comment from the 'comments' table.
+
+CodeIgniter's database library provides convenient methods for performing these operations, simplifying the implementation of CRUD functionality in web applications.
+
+## Special Features ⭐
+This CodeIgniter project showcases several key features:
+- **🙋🏻‍♂️User Creation/SignUp:** Allowing users to create accounts on the platform.
+- **🟢User Authentication/Login:** Secure authentication system for registered users.
+- **🧑🏻‍💻Admin Interface:** Providing administrators with a dedicated interface for managing the system.
+- **🪵Log Table:** A detailed log table to keep track of important activities within the application.
+
+# Project Flow and Explanation
+The following steps provide a comprehensive explanation of the entire project.
+
+## Step 1: User Signup
+
+
+<img src="https://github.com/arshpreet8051/CRUD_in_CI/assets/99662930/089fdf58-3a51-423f-81d6-768b18b02a90" alt="User SignUp" width="500"/>
+
+This step illustrates the user registration process, allowing individuals to sign up for an account on the platform.
+
+## Step 2: User Login
+
+
+<img src="https://github.com/arshpreet8051/CRUD_in_CI/assets/99662930/01d704e2-4476-45fa-93cc-06d90d0c482c" alt="User LogIn" width="500"/>
+
+Users can securely log into their accounts, verifying their identity through the authentication system.
+
+## Step 3: Create
+
+
+<img src="https://github.com/arshpreet8051/CRUD_in_CI/assets/99662930/b03ea976-28a7-49f9-97a0-0b3de10d6b1a" alt="Create Operation" width="900"/>
+
+This step demonstrates the creation of new records or entries within the application.
+
+## Step 4: Read
+![Read Operation](https://github.com/arshpreet8051/CRUD_in_CI/assets/99662930/81552e15-e771-4f03-9004-638c8e967fa6)
+Users can retrieve and view information stored in the system in this read operation.
+
+## Step 5: Update and Delete
+
+
+<img src="https://github.com/arshpreet8051/CRUD_in_CI/assets/99662930/2240c502-3f0d-4a1b-92e6-2bebc531e3ae" alt="Create Operation" width="550"/>
+
+This step covers updating existing records and deleting unnecessary entries.
+
+## Step 6: Admin Interface
+<img src="https://github.com/arshpreet8051/CRUD_in_CI/assets/99662930/1d98f71a-1b78-4d89-9a6d-6ff621c106d9" alt="Admin Interface" width="550"/>
+
+Administrators have access to a specialized interface for managing and overseeing the entire application.
+
+## Step 7: Log Table
+<img src="https://github.com/arshpreet8051/CRUD_in_CI/assets/99662930/ffcfb08c-c36a-4a86-975a-936e02cc34a9" alt="Log Table" width="550"/>
+
+This step showcases a log table, providing a detailed record of activities and changes within the system. The highlighted values are updated values.
+
 # CodeIgniter 4 Framework
 
 ## What is CodeIgniter?
